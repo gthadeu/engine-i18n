@@ -1,0 +1,24 @@
+{
+    "translation": {
+        "language":"English",
+        "header": "Our Header",
+        "footer": "Footer {{year}}",
+        "button": {
+            "language": "English"
+        },
+        "table": {
+            "first_column": "Tag",
+            "second_column": "Amount of videos"
+        },
+        "filter": {
+            "apply": "Apply filters"
+        },
+        "tabs": {
+            "uploads": "Uploads",
+            "tags": "Tags",
+            "settings": "Settings",
+            "developers": "Developers"
+        }
+        
+    }
+}

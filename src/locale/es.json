@@ -1,0 +1,23 @@
+{
+    "translation": {
+      "language": "Español",
+    "header": "Nuestro Encabezado",
+    "footer": "Pie de página {{year}}",
+    "button": {
+      "language": "Español"
+    },
+    "table": {
+      "first_column": "Etiqueta",
+      "second_column": "Cantidad de vídeos"
+    },
+    "filter": {
+      "apply": "Aplicar filtros"
+    },
+    "tabs": {
+      "uploads": "Cargas",
+      "tags": "Etiquetas",
+      "settings": "Ajustes",
+      "developers": "Desarrolladores"
+  }
+    }
+  }
