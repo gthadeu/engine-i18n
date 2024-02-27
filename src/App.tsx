@@ -3,6 +3,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Header } from "./components/header";
 import LanguageDropdown from "./components/language-dropdown";
+import MapContainer from "./components/map-container";
 import { Tabs } from "./components/tabs";
 import { Badge } from "./components/ui/badge";
 import { Button } from "./components/ui/button";
@@ -93,6 +94,7 @@ export const App: React.FC = () => {
         <div className="justify-end flex">
           <Badge variant="primary">{t("language")}</Badge>
         </div>
+        <MapContainer />
       </main>
 
       {/* EXEMPLO BASICO */}
