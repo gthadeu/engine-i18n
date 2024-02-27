@@ -1,23 +1,23 @@
 {
-    "translation": {
-        "language":"Portugues",
-        "header": "Nosso Cabeçalho",
-        "footer": "Rodape {{year}}",
-        "button": {
-            "language": "Portugues"
-        },
-        "table": {
-            "first_column": "Etiqueta",
-            "second_column": "Quantidade de videos"
-        },
-        "filter": {
-            "apply": "Aplicar filtros"
-        },
-        "tabs": {
-            "uploads": "Envios",
-            "tags": "Etiquetas",
-            "settings": "Configurações",
-            "developers": "Desenvolvedores"
-        }
+  "translation": {
+    "language": "Portugues",
+    "header": "Nosso Cabeçalho",
+    "footer": "Rodape {{year}}",
+    "button": {
+      "language": "Portugues"
+    },
+    "table": {
+      "first_column": "Etiqueta",
+      "second_column": "Quantidade de videos"
+    },
+    "filter": {
+      "apply": "Aplicar filtros"
+    },
+    "tabs": {
+      "uploads": "Envios",
+      "tags": "Etiquetas",
+      "settings": "Configurações",
+      "developers": "Desenvolvedores"
     }
+  }
 }
