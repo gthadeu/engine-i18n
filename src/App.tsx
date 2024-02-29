@@ -20,7 +20,7 @@ import {
 export const App: React.FC = () => {
   const { t } = useTranslation();
 
-  interface DataArrayItem {
+  interface DataItem {
     name: string;
     email: string;
     phone: string;
@@ -33,7 +33,7 @@ export const App: React.FC = () => {
     age: string;
   }
 
-  const dataArray1: DataArrayItem[][] = [
+  const dataArray1: DataItem[][] = [
     [
       {
         name: "Card 1",

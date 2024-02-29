@@ -14,11 +14,11 @@ const CardComponent: React.FC<{
   item: DataArrayItem;
   onClick: () => void;
   isExpanded: boolean;
-}> = ({ item, onClick, isExpanded }) => {
+}> = ({ item, onClick }) => {
   return (
     <motion.div
       onClick={onClick}
-      className="bg-red-300 flex px-2 py-1.5 justify-center rounded-md cursor-pointer"
+      className="bg-zinc-950 border-zinc-800 border text-sm flex px-2 py-1.5 justify-center rounded-md cursor-pointer"
     >
       <div>
         {Object.entries(item)
@@ -65,18 +65,28 @@ export const Card: React.FC<Props> = ({ dataArray }) => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -50, opacity: 0 }}
               layoutId={selectedId}
-              className="bg-red-500 rounded-md w-[800px] h-[637px] text-center relative"
+              className="bg-zinc-950 rounded-md w-[800px] h-[637px] py-4 px-2 relative"
             >
-              {Object.entries(
-                dataArray[selectedId.split("-")[0]][selectedId.split("-")[1]]
-              ).map(
-                ([key, value], index) =>
-                  index >= 0 && (
-                    <motion.h5 key={key} className="">
-                      {key}: {value}
-                    </motion.h5>
-                  )
-              )}
+              <div className="bg-[#313194] rounded-md p-1 mt-6 mb-2">
+                BANNER
+              </div>
+              {dataArray[parseInt(selectedId.split("-")[0])] &&
+                dataArray[parseInt(selectedId.split("-")[0])][
+                  parseInt(selectedId.split("-")[1])
+                ] &&
+                Object.entries(
+                  dataArray[parseInt(selectedId.split("-")[0])][
+                    parseInt(selectedId.split("-")[1])
+                  ]
+                ).map(
+                  ([key, value], index) =>
+                    index >= 0 && (
+                      <motion.h5 key={key} className="mb-2 text-sm">
+                        <span className="uppercase font-bold">{key}</span>:{" "}
+                        {value}
+                      </motion.h5>
+                    )
+                )}
               <motion.button
                 onClick={() => setSelectedId(null)}
                 className="absolute top-2 right-2"
