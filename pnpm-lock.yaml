@@ -40,6 +40,9 @@ dependencies:
     version: 0.2.0(tailwindcss@3.4.1)
 
 devDependencies:
+  '@types/google.maps':
+    specifier: ^3.55.3
+    version: 3.55.3
   '@types/react':
     specifier: ^18.2.56
     version: 18.2.58
@@ -1320,6 +1323,10 @@ packages:
   /@types/google.maps@3.55.2:
     resolution: {integrity: sha512-JcTwzkxskR8DN/nnX96Pie3gGN3WHiPpuxzuQ9z3516o1bB243d8w8DHUJ8BohuzoT1o3HUFta2ns/mkZC8KRw==}
     dev: false
+
+  /@types/google.maps@3.55.3:
+    resolution: {integrity: sha512-UF1nfj8h/Vj4wEcdjv5v314HkDB6AWaN34Fr/u+6Oaj+GSRlG+k4c3DnJNKv7S23RvDdvIPt4ON6ONJpzNnarA==}
+    dev: true
 
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}

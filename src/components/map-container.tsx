@@ -13,7 +13,8 @@ const MapContainer = () => {
     { lat: -19.9131, lng: -43.9409 },
     { lat: -19.91305, lng: -43.94095 },
     { lat: -19.91295, lng: -43.94088 },
-    { lat: -23.5489, lng: -46.6388 },
+    { lat: -23.5489, lng: -46.6388 }, //SP
+    { lat: -19.9676, lng: -44.1991 }, //BETIM
   ];
 
   const mapStyles = {
